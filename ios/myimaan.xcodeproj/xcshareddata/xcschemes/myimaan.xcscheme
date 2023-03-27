@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
                BuildableName = "myimaan.app"
-               BlueprintName = "My Imaan"
-               ReferencedContainer = "container:My Imaan.xcodeproj">
+               BlueprintName = "myimaan"
+               ReferencedContainer = "container:myimaan.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "My ImaanTests.xctest"
-               BlueprintName = "My ImaanTests"
-               ReferencedContainer = "container:My Imaan.xcodeproj">
+               BuildableName = "myimaanTests.xctest"
+               BlueprintName = "myimaanTests"
+               ReferencedContainer = "container:myimaan.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -56,8 +56,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
             BuildableName = "myimaan.app"
-            BlueprintName = "My Imaan"
-            ReferencedContainer = "container:My Imaan.xcodeproj">
+            BlueprintName = "myimaan"
+            ReferencedContainer = "container:myimaan.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -73,8 +73,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
             BuildableName = "myimaan.app"
-            BlueprintName = "My Imaan"
-            ReferencedContainer = "container:My Imaan.xcodeproj">
+            BlueprintName = "myimaan"
+            ReferencedContainer = "container:myimaan.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
