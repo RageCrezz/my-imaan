@@ -1,8 +1,30 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
+import { StyleSheet, Text, useColorScheme, View } from 'react-native';
+import { Colors } from '../styles/Globals';
 
-const Home = () => {
-  return <ScrollView></ScrollView>;
-};
+const styles = StyleSheet.create({
+  viewStyles: {
+    width: '100%',
+    height: '100%',
+  },
+});
+
+function Home(): JSX.Element {
+  const isDarkMode = useColorScheme() === 'dark';
+
+  const backgroundStyle = {
+    backgroundColor: isDarkMode
+      ? Colors.backgroundDark
+      : Colors.backgroundLight,
+  };
+
+  return (
+    <View style={backgroundStyle}>
+      <View style={styles.viewStyles}>
+        <Text>Test</Text>
+      </View>
+    </View>
+  );
+}
 
 export default Home;
