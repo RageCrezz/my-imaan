@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
   },
 });
 
-function Home(): JSX.Element {
+function Quran(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
@@ -27,4 +27,4 @@ function Home(): JSX.Element {
   );
 }
 
-export default Home;
+export default Quran;
