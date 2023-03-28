@@ -14,6 +14,7 @@
 		4FF21540DA1DBBD43F120F9C /* libPods-myimaan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F2878BBF6F3A3DF099B19D /* libPods-myimaan.a */; };
 		568EAC7C4038F2034A6C8197 /* libPods-myimaan-myimaanTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 550D4F5976678AB4AF6FCD97 /* libPods-myimaan-myimaanTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D0D9855C29D2AF42004138E3 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = D0D9855B29D2AF42004138E3 /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-myimaan-myimaanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myimaan-myimaanTests.release.xcconfig"; path = "Target Support Files/Pods-myimaan-myimaanTests/Pods-myimaan-myimaanTests.release.xcconfig"; sourceTree = "<group>"; };
 		90E1FC6C7392BAC234580095 /* Pods-My Imaan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Imaan.debug.xcconfig"; path = "Target Support Files/Pods-My Imaan/Pods-My Imaan.debug.xcconfig"; sourceTree = "<group>"; };
 		CA785F98F3FA9D13982ADD87 /* Pods-My Imaan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Imaan.release.xcconfig"; path = "Target Support Files/Pods-My Imaan/Pods-My Imaan.release.xcconfig"; sourceTree = "<group>"; };
+		D0D9855B29D2AF42004138E3 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
 		D5F2878BBF6F3A3DF099B19D /* libPods-myimaan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myimaan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -90,6 +92,7 @@
 		13B07FAE1A68108700A75B9A /* myimaan */ = {
 			isa = PBXGroup;
 			children = (
+				D0D9855B29D2AF42004138E3 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -250,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D9855C29D2AF42004138E3 /* Fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
