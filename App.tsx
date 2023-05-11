@@ -3,12 +3,12 @@ import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
 import { SafeAreaView, StyleSheet, useColorScheme, View } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import Home from './screens/Home';
-import Qibla from './screens/Qibla';
-import Quran from './screens/Quran';
-import Settings from './screens/Settings';
-import Sunnah from './screens/Sunnah';
-import { Colors } from './styles/Globals';
+import Home from './src/screens/Home';
+import Qibla from './src/screens/Qibla';
+import Quran from './src/screens/Quran';
+import Settings from './src/screens/Settings';
+import Sunnah from './src/screens/Sunnah';
+import { Colors } from './src/styles/Globals';
 
 const ROUTES = {
   HOME: 'Prayers',
@@ -18,6 +18,10 @@ const ROUTES = {
   SETTINGS: 'Settings',
 };
 
+function tabIcons(iconName: string, color: string, size: number): JSX.Element {
+  return <Icon name={iconName} color={color} size={size} />;
+}
+
 function App(): JSX.Element {
   const Tab = createBottomTabNavigator();
   const isDarkMode = useColorScheme() === 'dark';
@@ -25,6 +29,7 @@ function App(): JSX.Element {
   const styles = StyleSheet.create({
     safeArea: {
       flex: 1,
+      marginBottom: 24,
     },
     bg: {
       backgroundColor: isDarkMode
@@ -58,7 +63,6 @@ function App(): JSX.Element {
                 : Colors.ctaLight,
               tabBarIcon: ({ color, focused }) => {
                 let iconName: string = '';
-                console.log(color, focused, route.name);
 
                 switch (route.name) {
                   case ROUTES.HOME: {
@@ -83,7 +87,7 @@ function App(): JSX.Element {
                   }
                 }
 
-                return <Icon name={iconName} color={color} size={22} />;
+                return tabIcons(iconName, color, 22);
               },
             })}>
             <Tab.Screen name="Prayers" component={Home} />
